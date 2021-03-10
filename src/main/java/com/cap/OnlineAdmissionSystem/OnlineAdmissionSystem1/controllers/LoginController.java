@@ -22,7 +22,6 @@ public class LoginController {
 	@Autowired
 	IUserService  loginService;
 	
-
 @PostMapping("/login")
 @ResponseStatus(code = HttpStatus.CREATED) 
 public void addLoginDetails(@RequestBody Login login) {

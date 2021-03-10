@@ -30,12 +30,14 @@ public class UserService implements IUserService {
 		return user;
 		}
 
+	// addLoginDetails method adds login details
 	@Override
 	public Login addLoginDetails(Login login) {
 		loginRepository.save(login);
 		return login;
 		}
 
+	// getAllUserDetails method gets all user details
 	@Override
 	public ArrayList<User> getAllUserDetails() {
 		ArrayList<User> user1 = new ArrayList<User>(userRepository.findAll());
@@ -43,6 +45,7 @@ public class UserService implements IUserService {
 		return user1;
 		}
 
+	// getAllLoginDetails method gets all Login Details
 	@Override
 	public ArrayList<Login> getAllLoginDetails() {
 		ArrayList<Login> login1 = new ArrayList<Login>(loginRepository.findAll());
@@ -50,6 +53,7 @@ public class UserService implements IUserService {
 		return login1;
 		}
 
+	// getUserDetailsById method gets User details by userId
 	@Override
 	public User getUserDetailsById(int userId) {		
 		 User user1 = userRepository.findByUserId(userId);
@@ -57,6 +61,7 @@ public class UserService implements IUserService {
 		 return user1;
 	}
 
+	// getLoginDetailsById method gets Login details by userId
 	@Override
 	public Login getLoginDetailsById(int userId) {
 		Login login2 = loginRepository.findByUserId(userId);
@@ -65,6 +70,7 @@ public class UserService implements IUserService {
 		}
 
 
+	//deleteUserDetailsById method deletes User Details By userId
 	@Override
 	public User deleteUserDetailsById(int userId) {
 		Optional<User> user = userRepository.findById(userId);
@@ -98,6 +104,7 @@ public class UserService implements IUserService {
 
 	
 
+	// deleteLoginDetailsById method deletes Login Details By userId
 	@Override
 	public Login deleteLoginDetailsById(int userId)  {
 		Optional<Login> del1 = loginRepository.findById(userId);
@@ -106,8 +113,8 @@ public class UserService implements IUserService {
 		System.out.println(l);
 		return l;
 	}
-		
-
+	
+        // changePassword method changes password   	
 		@Override
 		public Login changePassword(Login login) {
 			Optional<Login> login3 = loginRepository.findById(login.getUserId());
@@ -121,6 +128,7 @@ public class UserService implements IUserService {
 
 	
 
+		//resetPassword method resets Passord
 		@Override
 		public Login resetPassword(Login login) {
 			Optional<Login> login3 = loginRepository.findById(login.getUserId());
@@ -138,6 +146,7 @@ public class UserService implements IUserService {
 		}
 		
 	
+	// updateUserDetails method updates user Details	
 	@Override
 	public User updateUserDetails(User user) {
 		Optional<User> user3 = userRepository.findById(user.getUserId());
