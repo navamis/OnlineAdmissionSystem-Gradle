@@ -31,11 +31,10 @@ import org.junit.jupiter.api.Test;
 		ILoginRepository loginRepository;
 		
 	    //User user = new User(100, "Ria", "Ann", "Charles", "ria@gmail.com", "9999999999", "1234 5678 9876");
-	    User user1 = new User(101, "Ria", "Ann", "Charles", "ria@gmail.com", "9999999999", "1234 5678 9876");
-		User use2 = new User(112, "John", "Roy", "Thomas", "john@gmail.com", "1111111111", "9876 5432 1987");
-		
-	//	
-		Login login = new Login(1, "xyz", "Admin");
+//	    User user1 = new User(101, "Ria", "Ann", "Charles", "ria@gmail.com", "9999999999", "1234 5678 9876");
+//		User use2 = new User(112, "John", "Roy", "Thomas", "john@gmail.com", "1111111111", "9876 5432 1987");
+
+		Login login = new Login(14, "123abc", "Student");
 		Login login2 = new Login(10, "agr", "Admin");
 //		Login login1 = new Login(102, "abc", "Student");
 
@@ -66,9 +65,9 @@ import org.junit.jupiter.api.Test;
 			userService.getUserDetailsById(111);
 		}
 		
-	   // @Test
+	    //@Test
 		public void testdeleteUserDetailsById() {
-			userService.deleteUserDetailsById(114);
+			userService.deleteUserDetailsById(115);
 		}
 			
 		//@Test
@@ -98,7 +97,7 @@ import org.junit.jupiter.api.Test;
 		
 		//@Test
 		public void testdeleteLoginDetailsById() {
-			userService.deleteLoginDetailsById(105);
+			userService.deleteLoginDetailsById(20);
 			//System.out.println(l);
 		}
 		
@@ -111,7 +110,7 @@ import org.junit.jupiter.api.Test;
 		
 		//@Test
 		public void testresetPassword() {
-			userService.resetPassword(login2);
+			userService.resetPassword(login);
 		}
 		
 		

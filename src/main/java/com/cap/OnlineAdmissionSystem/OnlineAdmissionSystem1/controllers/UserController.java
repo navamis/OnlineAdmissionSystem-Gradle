@@ -56,7 +56,8 @@ public class UserController {
 		//userService.deleteUserById(userId);
 		}
 
-	@PutMapping("/users")  
+	@PutMapping("/users") 
+	@ResponseStatus(code = HttpStatus.OK)
 	private User updateUserDetails(@RequestBody User user){
 		userService.updateUserDetails(user);
 		return user;  
