@@ -108,7 +108,7 @@ import org.junit.jupiter.api.Test;
 		}
 		
 		
-		//@Test
+		@Test
 		public void testresetPassword() {
 			userService.resetPassword(login);
 		}

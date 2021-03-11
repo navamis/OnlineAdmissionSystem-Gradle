@@ -6,6 +6,7 @@ import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.entities.Login;
 import com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.entities.User;
@@ -141,14 +142,16 @@ public class UserService implements IUserService {
 	 * @return login
 	 */
 	@Override
+	//@Transactional
 	public Login changePassword(Login login) {
-		Optional<Login> login3 = loginRepository.findById(login.getUserId());
-		if(login3.isPresent())
-		{
-			Login changePassword = login3.get();
-			changePassword.setPassword(login.getPassword());
+		Optional<Login> login3= loginRepository.findById(login.getUserId());
+		
+		if(login3.isPresent()) {
+		Login changePassword = login3.get();
+		changePassword.setPassword(login.getPassword());
+		loginRepository.save(changePassword);
 		}
-			return login;
+		return login;
 	}
 
 	
@@ -160,13 +163,9 @@ public class UserService implements IUserService {
 	public Login resetPassword(Login login) {
 		Optional<Login> login3 = loginRepository.findById(login.getUserId());
 		if(login3.isPresent()) {
-			Login cp = login3.get();
-			cp.getPassword();
-			loginRepository.delete(cp);
-		}
-			if(login3.isEmpty()) {
 			Login resetPassword = login3.get();
-			resetPassword.setPassword(login.getPassword());
+     		resetPassword.setPassword(login.getPassword());
+    		loginRepository.save(resetPassword);
 		}
 		return login;	
 	}
@@ -187,6 +186,7 @@ public class UserService implements IUserService {
 			adduser.setLastName(user.getLastName());
 			adduser.setMobileNumber(user.getMobileNumber());
 			adduser.setAadharCardNo(user.getAadharCardNo());
+			userRepository.save(adduser);
 		}
 		System.out.println(user3);
 		return user;
