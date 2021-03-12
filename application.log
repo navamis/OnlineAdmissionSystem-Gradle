@@ -1,0 +1,811 @@
+2021-03-12 17:09:24.130  INFO 6448 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Starting OnlineAdmissionSystem1Application using Java 15.0.1 on LAPTOP-TUNMEVMJ with PID 6448 (C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1\bin\main started by sjsha in C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1)
+2021-03-12 17:09:24.138  INFO 6448 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : No active profile set, falling back to default profiles: default
+2021-03-12 17:09:24.305  INFO 6448 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-12 17:09:24.308  INFO 6448 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-12 17:09:27.576  INFO 6448 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-12 17:09:27.611  INFO 6448 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 JPA repository interfaces.
+2021-03-12 17:09:29.825  INFO 6448 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2021-03-12 17:09:29.859  INFO 6448 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-12 17:09:29.860  INFO 6448 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-12 17:09:30.157  INFO 6448 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-12 17:09:30.159  INFO 6448 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5847 ms
+2021-03-12 17:09:30.615  INFO 6448 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-12 17:09:30.824  INFO 6448 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-12 17:09:31.163  INFO 6448 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-12 17:09:31.429  INFO 6448 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-12 17:09:31.943  INFO 6448 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-12 17:09:31.987  INFO 6448 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 17:09:33.543  INFO 6448 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 17:09:33.570  INFO 6448 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:09:33.636  INFO 6448 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-12 17:09:34.537  WARN 6448 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-12 17:09:35.021  INFO 6448 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-12 17:09:35.419  INFO 6448 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:09:36.028  INFO 6448 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2021-03-12 17:09:36.032  INFO 6448 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-12 17:09:36.104  INFO 6448 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-03-12 17:09:36.167  INFO 6448 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-12 17:09:36.598  INFO 6448 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Started OnlineAdmissionSystem1Application in 13.488 seconds (JVM running for 15.503)
+2021-03-12 17:12:58.215  INFO 6448 --- [http-nio-8070-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-12 17:12:58.216  INFO 6448 --- [http-nio-8070-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-12 17:12:58.218  INFO 6448 --- [http-nio-8070-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-03-12 17:14:59.955  INFO 21132 --- [restartedMain] c.c.O.O.applications.LoggerApplication   : Starting LoggerApplication using Java 15.0.1 on LAPTOP-TUNMEVMJ with PID 21132 (C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1\bin\main started by sjsha in C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1)
+2021-03-12 17:14:59.965  INFO 21132 --- [restartedMain] c.c.O.O.applications.LoggerApplication   : No active profile set, falling back to default profiles: default
+2021-03-12 17:15:00.014  INFO 21132 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-12 17:15:00.015  INFO 21132 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-12 17:15:00.338  WARN 21132 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.context.ApplicationContextException: Unable to start ServletWebServerApplicationContext due to missing ServletWebServerFactory bean.
+2021-03-12 17:15:00.929 ERROR 21132 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.context.ApplicationContextException: Unable to start ServletWebServerApplicationContext due to missing ServletWebServerFactory bean.
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162) ~[spring-boot-2.4.3.jar:2.4.3]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:576) ~[spring-context-5.3.4.jar:5.3.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.3.jar:2.4.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767) ~[spring-boot-2.4.3.jar:2.4.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759) ~[spring-boot-2.4.3.jar:2.4.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426) ~[spring-boot-2.4.3.jar:2.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326) ~[spring-boot-2.4.3.jar:2.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311) ~[spring-boot-2.4.3.jar:2.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300) ~[spring-boot-2.4.3.jar:2.4.3]
+	at com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.applications.LoggerApplication.main(LoggerApplication.java:17) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.4.3.jar:2.4.3]
+Caused by: org.springframework.context.ApplicationContextException: Unable to start ServletWebServerApplicationContext due to missing ServletWebServerFactory bean.
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:209) ~[spring-boot-2.4.3.jar:2.4.3]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:179) ~[spring-boot-2.4.3.jar:2.4.3]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:159) ~[spring-boot-2.4.3.jar:2.4.3]
+	... 14 common frames omitted
+
+2021-03-12 17:15:53.980  INFO 25532 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Starting OnlineAdmissionSystem1Application using Java 15.0.1 on LAPTOP-TUNMEVMJ with PID 25532 (C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1\bin\main started by sjsha in C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1)
+2021-03-12 17:15:53.989  INFO 25532 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : No active profile set, falling back to default profiles: default
+2021-03-12 17:15:54.173  INFO 25532 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-12 17:15:54.188  INFO 25532 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-12 17:15:57.357  INFO 25532 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-12 17:15:57.400  INFO 25532 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 0 JPA repository interfaces.
+2021-03-12 17:15:59.520  INFO 25532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2021-03-12 17:15:59.561  INFO 25532 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-12 17:15:59.564  INFO 25532 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-12 17:15:59.856  INFO 25532 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-12 17:15:59.857  INFO 25532 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5666 ms
+2021-03-12 17:16:00.358  INFO 25532 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-12 17:16:00.539  INFO 25532 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-12 17:16:00.945  INFO 25532 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-12 17:16:01.292  INFO 25532 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-12 17:16:01.843  INFO 25532 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-12 17:16:01.882  INFO 25532 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 17:16:03.653  INFO 25532 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 17:16:03.698  INFO 25532 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:16:03.742  INFO 25532 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-12 17:16:04.797  WARN 25532 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-12 17:16:05.332  INFO 25532 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-12 17:16:05.726  INFO 25532 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:16:06.349  INFO 25532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2021-03-12 17:16:06.351  INFO 25532 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-12 17:16:06.421  INFO 25532 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-03-12 17:16:06.507  INFO 25532 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-12 17:16:07.169  INFO 25532 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Started OnlineAdmissionSystem1Application in 14.167 seconds (JVM running for 15.643)
+2021-03-12 17:16:15.789  INFO 25532 --- [http-nio-8070-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-12 17:16:15.790  INFO 25532 --- [http-nio-8070-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-12 17:16:15.791  INFO 25532 --- [http-nio-8070-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-03-12 17:25:31.330  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Starting OnlineAdmissionSystem1Application using Java 15.0.1 on LAPTOP-TUNMEVMJ with PID 17328 (C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1\bin\main started by sjsha in C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1)
+2021-03-12 17:25:31.340  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : No active profile set, falling back to default profiles: default
+2021-03-12 17:25:31.573  INFO 17328 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-12 17:25:31.574  INFO 17328 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-12 17:25:34.613  INFO 17328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-12 17:25:34.647  INFO 17328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2021-03-12 17:25:36.451  INFO 17328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2021-03-12 17:25:36.488  INFO 17328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-12 17:25:36.489  INFO 17328 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-12 17:25:36.754  INFO 17328 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-12 17:25:36.755  INFO 17328 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5178 ms
+2021-03-12 17:25:37.119  INFO 17328 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-12 17:25:37.252  INFO 17328 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-12 17:25:37.601  INFO 17328 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-12 17:25:37.881  INFO 17328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-12 17:25:38.377  INFO 17328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-12 17:25:38.408  INFO 17328 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 17:25:40.052  INFO 17328 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 17:25:40.072  INFO 17328 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:25:40.139  INFO 17328 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-12 17:25:40.962  WARN 17328 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-12 17:25:41.429  INFO 17328 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-12 17:25:41.751  INFO 17328 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:25:42.326  INFO 17328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2021-03-12 17:25:42.328  INFO 17328 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-12 17:25:42.377  INFO 17328 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-03-12 17:25:42.465  INFO 17328 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-12 17:25:43.057  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Started OnlineAdmissionSystem1Application in 12.795 seconds (JVM running for 14.287)
+2021-03-12 17:26:03.953  INFO 17328 --- [http-nio-8070-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-12 17:26:03.953  INFO 17328 --- [http-nio-8070-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-12 17:26:03.955  INFO 17328 --- [http-nio-8070-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-03-12 17:26:29.717  INFO 17328 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:26:29.725  INFO 17328 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:26:29.737  INFO 17328 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-03-12 17:26:29.761  INFO 17328 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-03-12 17:26:30.054  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Starting OnlineAdmissionSystem1Application using Java 15.0.1 on LAPTOP-TUNMEVMJ with PID 17328 (C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1\bin\main started by sjsha in C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1)
+2021-03-12 17:26:30.055  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : No active profile set, falling back to default profiles: default
+2021-03-12 17:26:31.227  INFO 17328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-12 17:26:31.237  INFO 17328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2021-03-12 17:26:31.623  INFO 17328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2021-03-12 17:26:31.628  INFO 17328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-12 17:26:31.629  INFO 17328 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-12 17:26:31.702  INFO 17328 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-12 17:26:31.703  INFO 17328 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1629 ms
+2021-03-12 17:26:31.813  INFO 17328 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-12 17:26:31.840  INFO 17328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2021-03-12 17:26:31.990  INFO 17328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-03-12 17:26:31.991  INFO 17328 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 17:26:33.107  INFO 17328 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 17:26:33.108  INFO 17328 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:26:33.121  INFO 17328 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-12 17:26:33.470  WARN 17328 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-12 17:26:33.777  INFO 17328 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-12 17:26:34.176  INFO 17328 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:26:34.520  INFO 17328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2021-03-12 17:26:34.525  INFO 17328 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-12 17:26:34.528  INFO 17328 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-03-12 17:26:34.549  INFO 17328 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-12 17:26:34.890  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Started OnlineAdmissionSystem1Application in 4.988 seconds (JVM running for 66.119)
+2021-03-12 17:26:34.895  INFO 17328 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-03-12 17:26:52.499  INFO 17328 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:26:52.505  INFO 17328 --- [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:26:52.507  INFO 17328 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2021-03-12 17:26:52.515  INFO 17328 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2021-03-12 17:26:52.678  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Starting OnlineAdmissionSystem1Application using Java 15.0.1 on LAPTOP-TUNMEVMJ with PID 17328 (C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1\bin\main started by sjsha in C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1)
+2021-03-12 17:26:52.679  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : No active profile set, falling back to default profiles: default
+2021-03-12 17:26:53.460  INFO 17328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-12 17:26:53.467  INFO 17328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2021-03-12 17:26:53.783  INFO 17328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2021-03-12 17:26:53.786  INFO 17328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-12 17:26:53.787  INFO 17328 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-12 17:26:53.865  INFO 17328 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-12 17:26:53.865  INFO 17328 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1178 ms
+2021-03-12 17:26:54.018  INFO 17328 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-12 17:26:54.068  INFO 17328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2021-03-12 17:26:54.240  INFO 17328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2021-03-12 17:26:54.244  INFO 17328 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 17:26:55.318  INFO 17328 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 17:26:55.319  INFO 17328 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:26:55.332  INFO 17328 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-12 17:26:55.670  WARN 17328 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-12 17:26:55.841  INFO 17328 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-12 17:26:56.080  INFO 17328 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:26:56.395  INFO 17328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2021-03-12 17:26:56.396  INFO 17328 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-12 17:26:56.397  INFO 17328 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-03-12 17:26:56.406  INFO 17328 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-12 17:26:56.648  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Started OnlineAdmissionSystem1Application in 4.051 seconds (JVM running for 87.878)
+2021-03-12 17:26:56.653  INFO 17328 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-03-12 17:27:09.389  INFO 17328 --- [Thread-15] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:27:09.392  INFO 17328 --- [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:27:09.394  INFO 17328 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2021-03-12 17:27:09.399  INFO 17328 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2021-03-12 17:27:09.536  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Starting OnlineAdmissionSystem1Application using Java 15.0.1 on LAPTOP-TUNMEVMJ with PID 17328 (C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1\bin\main started by sjsha in C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1)
+2021-03-12 17:27:09.536  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : No active profile set, falling back to default profiles: default
+2021-03-12 17:27:10.949  INFO 17328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-12 17:27:10.954  INFO 17328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2021-03-12 17:27:11.214  INFO 17328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2021-03-12 17:27:11.216  INFO 17328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-12 17:27:11.217  INFO 17328 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-12 17:27:11.299  INFO 17328 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-12 17:27:11.301  INFO 17328 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1762 ms
+2021-03-12 17:27:11.410  INFO 17328 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-12 17:27:11.429  INFO 17328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2021-03-12 17:27:11.606  INFO 17328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2021-03-12 17:27:11.607  INFO 17328 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 17:27:12.538  INFO 17328 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 17:27:12.539  INFO 17328 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:27:12.554  INFO 17328 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-12 17:27:12.949  WARN 17328 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-12 17:27:13.405  INFO 17328 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-12 17:27:14.371  INFO 17328 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:27:15.102  INFO 17328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2021-03-12 17:27:15.105  INFO 17328 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-12 17:27:15.106  INFO 17328 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-03-12 17:27:15.117  INFO 17328 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-12 17:27:15.434  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Started OnlineAdmissionSystem1Application in 5.952 seconds (JVM running for 106.664)
+2021-03-12 17:27:15.440  INFO 17328 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-03-12 17:27:16.648  INFO 17328 --- [Thread-21] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:27:16.650  INFO 17328 --- [Thread-21] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:27:16.651  INFO 17328 --- [Thread-21] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2021-03-12 17:27:16.665  INFO 17328 --- [Thread-21] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2021-03-12 17:27:16.846  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Starting OnlineAdmissionSystem1Application using Java 15.0.1 on LAPTOP-TUNMEVMJ with PID 17328 (C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1\bin\main started by sjsha in C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1)
+2021-03-12 17:27:16.847  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : No active profile set, falling back to default profiles: default
+2021-03-12 17:27:17.682  INFO 17328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-12 17:27:17.687  INFO 17328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2021-03-12 17:27:18.076  INFO 17328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2021-03-12 17:27:18.078  INFO 17328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-12 17:27:18.079  INFO 17328 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-12 17:27:18.218  INFO 17328 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-12 17:27:18.219  INFO 17328 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1366 ms
+2021-03-12 17:27:18.438  INFO 17328 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-12 17:27:18.465  INFO 17328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2021-03-12 17:27:18.696  INFO 17328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2021-03-12 17:27:18.697  INFO 17328 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 17:27:19.827  INFO 17328 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 17:27:19.828  INFO 17328 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:27:19.839  INFO 17328 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-12 17:27:20.016  WARN 17328 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-12 17:27:20.274  INFO 17328 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-12 17:27:20.498  INFO 17328 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:27:20.804  INFO 17328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2021-03-12 17:27:20.808  INFO 17328 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-12 17:27:20.809  INFO 17328 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-03-12 17:27:20.817  INFO 17328 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-12 17:27:20.985  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Started OnlineAdmissionSystem1Application in 4.215 seconds (JVM running for 112.215)
+2021-03-12 17:27:20.990  INFO 17328 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-03-12 17:27:48.005  INFO 17328 --- [Thread-27] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:27:48.006  INFO 17328 --- [Thread-27] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:27:48.006  INFO 17328 --- [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2021-03-12 17:27:48.011  INFO 17328 --- [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2021-03-12 17:27:48.143  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Starting OnlineAdmissionSystem1Application using Java 15.0.1 on LAPTOP-TUNMEVMJ with PID 17328 (C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1\bin\main started by sjsha in C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1)
+2021-03-12 17:27:48.144  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : No active profile set, falling back to default profiles: default
+2021-03-12 17:27:48.738  INFO 17328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-12 17:27:48.740  INFO 17328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2021-03-12 17:27:48.919  INFO 17328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2021-03-12 17:27:48.920  INFO 17328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-12 17:27:48.921  INFO 17328 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-12 17:27:49.010  INFO 17328 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-12 17:27:49.010  INFO 17328 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 863 ms
+2021-03-12 17:27:49.219  INFO 17328 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-12 17:27:49.230  INFO 17328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2021-03-12 17:27:49.414  INFO 17328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2021-03-12 17:27:49.415  INFO 17328 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 17:27:50.756  INFO 17328 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 17:27:50.758  INFO 17328 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:27:50.875  INFO 17328 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-12 17:27:51.893  WARN 17328 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-12 17:27:52.307  INFO 17328 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-12 17:27:52.486  INFO 17328 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:27:52.823  INFO 17328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2021-03-12 17:27:52.827  INFO 17328 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-12 17:27:52.830  INFO 17328 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-03-12 17:27:52.850  INFO 17328 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-12 17:27:53.103  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Started OnlineAdmissionSystem1Application in 5.012 seconds (JVM running for 144.331)
+2021-03-12 17:27:53.106  INFO 17328 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-03-12 17:27:54.371  INFO 17328 --- [Thread-33] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:27:54.372  INFO 17328 --- [Thread-33] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:27:54.374  INFO 17328 --- [Thread-33] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2021-03-12 17:27:54.383  INFO 17328 --- [Thread-33] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2021-03-12 17:27:54.546  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Starting OnlineAdmissionSystem1Application using Java 15.0.1 on LAPTOP-TUNMEVMJ with PID 17328 (C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1\bin\main started by sjsha in C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1)
+2021-03-12 17:27:54.547  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : No active profile set, falling back to default profiles: default
+2021-03-12 17:27:55.368  INFO 17328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-12 17:27:55.372  INFO 17328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2021-03-12 17:27:55.631  INFO 17328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2021-03-12 17:27:55.632  INFO 17328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-12 17:27:55.633  INFO 17328 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-12 17:27:55.693  INFO 17328 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-12 17:27:55.693  INFO 17328 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1141 ms
+2021-03-12 17:27:55.892  INFO 17328 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-12 17:27:55.929  INFO 17328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2021-03-12 17:27:56.247  INFO 17328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2021-03-12 17:27:56.249  INFO 17328 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 17:27:57.704  INFO 17328 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 17:27:57.706  INFO 17328 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:27:57.716  INFO 17328 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-12 17:27:58.235  WARN 17328 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-12 17:27:58.433  INFO 17328 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-12 17:27:58.558  INFO 17328 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:27:58.747  INFO 17328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2021-03-12 17:27:58.749  INFO 17328 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-12 17:27:58.750  INFO 17328 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-03-12 17:27:58.760  INFO 17328 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-12 17:27:58.881  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Started OnlineAdmissionSystem1Application in 4.4 seconds (JVM running for 150.11)
+2021-03-12 17:27:58.885  INFO 17328 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-03-12 17:28:00.377  INFO 17328 --- [Thread-39] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:28:00.378  INFO 17328 --- [Thread-39] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:28:00.379  INFO 17328 --- [Thread-39] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2021-03-12 17:28:00.390  INFO 17328 --- [Thread-39] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2021-03-12 17:28:00.559  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Starting OnlineAdmissionSystem1Application using Java 15.0.1 on LAPTOP-TUNMEVMJ with PID 17328 (C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1\bin\main started by sjsha in C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1)
+2021-03-12 17:28:00.560  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : No active profile set, falling back to default profiles: default
+2021-03-12 17:28:01.328  INFO 17328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-12 17:28:01.334  INFO 17328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2021-03-12 17:28:01.598  INFO 17328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2021-03-12 17:28:01.601  INFO 17328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-12 17:28:01.603  INFO 17328 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-12 17:28:01.670  INFO 17328 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-12 17:28:01.670  INFO 17328 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1103 ms
+2021-03-12 17:28:01.740  INFO 17328 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-12 17:28:01.758  INFO 17328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2021-03-12 17:28:01.906  INFO 17328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2021-03-12 17:28:01.907  INFO 17328 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 17:28:02.936  INFO 17328 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 17:28:02.937  INFO 17328 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:28:02.952  INFO 17328 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-12 17:28:03.173  WARN 17328 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-12 17:28:03.380  INFO 17328 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-12 17:28:03.613  INFO 17328 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:28:03.889  INFO 17328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2021-03-12 17:28:03.960  INFO 17328 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-12 17:28:03.965  INFO 17328 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-03-12 17:28:03.986  INFO 17328 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-12 17:28:04.227  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Started OnlineAdmissionSystem1Application in 3.731 seconds (JVM running for 155.456)
+2021-03-12 17:28:04.231  INFO 17328 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-03-12 17:28:33.121  INFO 17328 --- [Thread-45] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:28:33.122  INFO 17328 --- [Thread-45] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:28:33.123  INFO 17328 --- [Thread-45] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2021-03-12 17:28:33.128  INFO 17328 --- [Thread-45] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2021-03-12 17:28:33.296  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Starting OnlineAdmissionSystem1Application using Java 15.0.1 on LAPTOP-TUNMEVMJ with PID 17328 (C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1\bin\main started by sjsha in C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1)
+2021-03-12 17:28:33.297  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : No active profile set, falling back to default profiles: default
+2021-03-12 17:28:34.341  INFO 17328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-12 17:28:34.345  INFO 17328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2021-03-12 17:28:34.538  INFO 17328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2021-03-12 17:28:34.539  INFO 17328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-12 17:28:34.539  INFO 17328 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-12 17:28:34.589  INFO 17328 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-12 17:28:34.590  INFO 17328 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1286 ms
+2021-03-12 17:28:34.661  INFO 17328 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-12 17:28:34.672  INFO 17328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2021-03-12 17:28:34.793  INFO 17328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2021-03-12 17:28:34.794  INFO 17328 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 17:28:35.627  INFO 17328 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 17:28:35.628  INFO 17328 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:28:35.639  INFO 17328 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-12 17:28:35.805  WARN 17328 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-12 17:28:35.884  INFO 17328 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-12 17:28:36.174  INFO 17328 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:28:36.581  INFO 17328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2021-03-12 17:28:36.584  INFO 17328 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-12 17:28:36.585  INFO 17328 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-03-12 17:28:36.593  INFO 17328 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-12 17:28:36.764  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Started OnlineAdmissionSystem1Application in 3.532 seconds (JVM running for 187.994)
+2021-03-12 17:28:36.766  INFO 17328 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-03-12 17:28:38.604  INFO 17328 --- [Thread-51] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:28:38.606  INFO 17328 --- [Thread-51] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:28:38.606  INFO 17328 --- [Thread-51] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
+2021-03-12 17:28:38.621  INFO 17328 --- [Thread-51] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
+2021-03-12 17:28:39.151  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Starting OnlineAdmissionSystem1Application using Java 15.0.1 on LAPTOP-TUNMEVMJ with PID 17328 (C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1\bin\main started by sjsha in C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1)
+2021-03-12 17:28:39.151  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : No active profile set, falling back to default profiles: default
+2021-03-12 17:28:40.554  INFO 17328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-12 17:28:40.557  INFO 17328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2021-03-12 17:28:40.772  INFO 17328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2021-03-12 17:28:40.774  INFO 17328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-12 17:28:40.775  INFO 17328 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-12 17:28:40.860  INFO 17328 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-12 17:28:40.861  INFO 17328 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1702 ms
+2021-03-12 17:28:40.920  INFO 17328 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-12 17:28:40.928  INFO 17328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Starting...
+2021-03-12 17:28:41.022  INFO 17328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Start completed.
+2021-03-12 17:28:41.023  INFO 17328 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 17:28:42.189  INFO 17328 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 17:28:42.190  INFO 17328 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:28:42.202  INFO 17328 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-12 17:28:42.467  WARN 17328 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-12 17:28:42.700  INFO 17328 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-12 17:28:43.234  INFO 17328 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:28:43.578  INFO 17328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2021-03-12 17:28:43.578  INFO 17328 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-12 17:28:43.579  INFO 17328 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-03-12 17:28:43.587  INFO 17328 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-12 17:28:43.904  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Started OnlineAdmissionSystem1Application in 4.946 seconds (JVM running for 195.134)
+2021-03-12 17:28:43.909  INFO 17328 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-03-12 17:28:45.139  INFO 17328 --- [Thread-57] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:28:45.141  INFO 17328 --- [Thread-57] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:28:45.142  INFO 17328 --- [Thread-57] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown initiated...
+2021-03-12 17:28:45.153  INFO 17328 --- [Thread-57] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown completed.
+2021-03-12 17:28:45.299  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Starting OnlineAdmissionSystem1Application using Java 15.0.1 on LAPTOP-TUNMEVMJ with PID 17328 (C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1\bin\main started by sjsha in C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1)
+2021-03-12 17:28:45.300  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : No active profile set, falling back to default profiles: default
+2021-03-12 17:28:45.861  INFO 17328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-12 17:28:45.865  INFO 17328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2021-03-12 17:28:46.383  INFO 17328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2021-03-12 17:28:46.386  INFO 17328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-12 17:28:46.387  INFO 17328 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-12 17:28:46.474  INFO 17328 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-12 17:28:46.475  INFO 17328 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1171 ms
+2021-03-12 17:28:46.520  INFO 17328 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-12 17:28:46.530  INFO 17328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Starting...
+2021-03-12 17:28:46.738  INFO 17328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Start completed.
+2021-03-12 17:28:46.739  INFO 17328 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 17:28:48.889  INFO 17328 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 17:28:48.890  INFO 17328 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:28:48.907  INFO 17328 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-12 17:28:49.083  WARN 17328 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-12 17:28:49.197  INFO 17328 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-12 17:28:49.379  INFO 17328 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:28:49.587  INFO 17328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2021-03-12 17:28:49.589  INFO 17328 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-12 17:28:49.590  INFO 17328 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-03-12 17:28:49.617  INFO 17328 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-12 17:28:49.713  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Started OnlineAdmissionSystem1Application in 4.465 seconds (JVM running for 200.943)
+2021-03-12 17:28:49.716  INFO 17328 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-03-12 17:28:51.087  INFO 17328 --- [Thread-63] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:28:51.089  INFO 17328 --- [Thread-63] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:28:51.091  INFO 17328 --- [Thread-63] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown initiated...
+2021-03-12 17:28:51.099  INFO 17328 --- [Thread-63] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown completed.
+2021-03-12 17:28:51.270  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Starting OnlineAdmissionSystem1Application using Java 15.0.1 on LAPTOP-TUNMEVMJ with PID 17328 (C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1\bin\main started by sjsha in C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1)
+2021-03-12 17:28:51.271  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : No active profile set, falling back to default profiles: default
+2021-03-12 17:28:52.033  INFO 17328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-12 17:28:52.039  INFO 17328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2021-03-12 17:28:52.249  INFO 17328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2021-03-12 17:28:52.251  INFO 17328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-12 17:28:52.251  INFO 17328 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-12 17:28:52.293  INFO 17328 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-12 17:28:52.293  INFO 17328 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1015 ms
+2021-03-12 17:28:52.381  INFO 17328 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-12 17:28:52.401  INFO 17328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Starting...
+2021-03-12 17:28:52.716  INFO 17328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Start completed.
+2021-03-12 17:28:52.717  INFO 17328 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 17:28:53.992  INFO 17328 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 17:28:53.993  INFO 17328 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:28:54.005  INFO 17328 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-12 17:28:54.125  WARN 17328 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-12 17:28:54.220  INFO 17328 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-12 17:28:54.321  INFO 17328 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:28:54.508  INFO 17328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2021-03-12 17:28:54.509  INFO 17328 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-12 17:28:54.510  INFO 17328 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-03-12 17:28:54.520  INFO 17328 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-12 17:28:54.615  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Started OnlineAdmissionSystem1Application in 3.418 seconds (JVM running for 205.844)
+2021-03-12 17:28:54.624  INFO 17328 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-03-12 17:28:56.517  INFO 17328 --- [Thread-69] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:28:56.518  INFO 17328 --- [Thread-69] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:28:56.519  INFO 17328 --- [Thread-69] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown initiated...
+2021-03-12 17:28:56.533  INFO 17328 --- [Thread-69] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown completed.
+2021-03-12 17:28:56.740  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Starting OnlineAdmissionSystem1Application using Java 15.0.1 on LAPTOP-TUNMEVMJ with PID 17328 (C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1\bin\main started by sjsha in C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1)
+2021-03-12 17:28:56.741  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : No active profile set, falling back to default profiles: default
+2021-03-12 17:28:57.847  INFO 17328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-12 17:28:57.851  INFO 17328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2021-03-12 17:28:58.041  INFO 17328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2021-03-12 17:28:58.043  INFO 17328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-12 17:28:58.043  INFO 17328 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-12 17:28:58.093  INFO 17328 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-12 17:28:58.094  INFO 17328 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1350 ms
+2021-03-12 17:28:58.142  INFO 17328 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-12 17:28:58.160  INFO 17328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Starting...
+2021-03-12 17:28:58.266  INFO 17328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Start completed.
+2021-03-12 17:28:58.267  INFO 17328 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 17:28:59.155  INFO 17328 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 17:28:59.156  INFO 17328 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:28:59.168  INFO 17328 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-12 17:28:59.305  WARN 17328 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-12 17:28:59.391  INFO 17328 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-12 17:28:59.513  INFO 17328 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:28:59.634  INFO 17328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2021-03-12 17:28:59.637  INFO 17328 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-12 17:28:59.638  INFO 17328 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-03-12 17:28:59.654  INFO 17328 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-12 17:28:59.820  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Started OnlineAdmissionSystem1Application in 3.141 seconds (JVM running for 211.049)
+2021-03-12 17:28:59.825  INFO 17328 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-03-12 17:29:02.435  INFO 17328 --- [Thread-75] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:29:02.438  INFO 17328 --- [Thread-75] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:29:02.439  INFO 17328 --- [Thread-75] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown initiated...
+2021-03-12 17:29:02.477  INFO 17328 --- [Thread-75] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown completed.
+2021-03-12 17:29:03.639  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Starting OnlineAdmissionSystem1Application using Java 15.0.1 on LAPTOP-TUNMEVMJ with PID 17328 (C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1\bin\main started by sjsha in C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1)
+2021-03-12 17:29:03.640  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : No active profile set, falling back to default profiles: default
+2021-03-12 17:29:04.460  INFO 17328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-12 17:29:04.464  INFO 17328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2021-03-12 17:29:04.681  INFO 17328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2021-03-12 17:29:04.683  INFO 17328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-12 17:29:04.684  INFO 17328 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-12 17:29:04.740  INFO 17328 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-12 17:29:04.740  INFO 17328 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1090 ms
+2021-03-12 17:29:04.789  INFO 17328 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-12 17:29:04.804  INFO 17328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Starting...
+2021-03-12 17:29:05.060  INFO 17328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Start completed.
+2021-03-12 17:29:05.060  INFO 17328 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 17:29:06.472  INFO 17328 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 17:29:06.473  INFO 17328 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:29:06.488  INFO 17328 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-12 17:29:06.717  WARN 17328 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-12 17:29:06.880  INFO 17328 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-12 17:29:07.115  INFO 17328 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:29:07.335  INFO 17328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2021-03-12 17:29:07.336  INFO 17328 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-12 17:29:07.338  INFO 17328 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-03-12 17:29:07.359  INFO 17328 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-12 17:29:07.451  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Started OnlineAdmissionSystem1Application in 4.426 seconds (JVM running for 218.68)
+2021-03-12 17:29:07.455  INFO 17328 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-03-12 17:29:08.886  INFO 17328 --- [Thread-81] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:29:08.887  INFO 17328 --- [Thread-81] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:29:08.887  INFO 17328 --- [Thread-81] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Shutdown initiated...
+2021-03-12 17:29:08.894  INFO 17328 --- [Thread-81] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Shutdown completed.
+2021-03-12 17:29:09.027  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Starting OnlineAdmissionSystem1Application using Java 15.0.1 on LAPTOP-TUNMEVMJ with PID 17328 (C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1\bin\main started by sjsha in C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1)
+2021-03-12 17:29:09.028  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : No active profile set, falling back to default profiles: default
+2021-03-12 17:29:09.497  INFO 17328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-12 17:29:09.499  INFO 17328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2021-03-12 17:29:09.615  INFO 17328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2021-03-12 17:29:09.616  INFO 17328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-12 17:29:09.616  INFO 17328 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-12 17:29:09.661  INFO 17328 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-12 17:29:09.661  INFO 17328 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 629 ms
+2021-03-12 17:29:09.699  INFO 17328 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-12 17:29:09.706  INFO 17328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Starting...
+2021-03-12 17:29:09.790  INFO 17328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Start completed.
+2021-03-12 17:29:09.790  INFO 17328 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 17:29:11.370  INFO 17328 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 17:29:11.371  INFO 17328 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:29:11.403  INFO 17328 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-12 17:29:11.612  WARN 17328 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-12 17:29:11.691  INFO 17328 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-12 17:29:11.803  INFO 17328 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:29:11.973  INFO 17328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2021-03-12 17:29:11.974  INFO 17328 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-12 17:29:11.974  INFO 17328 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-03-12 17:29:11.982  INFO 17328 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-12 17:29:12.196  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Started OnlineAdmissionSystem1Application in 3.205 seconds (JVM running for 223.426)
+2021-03-12 17:29:12.204  INFO 17328 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-03-12 17:29:13.580  INFO 17328 --- [Thread-87] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:29:13.581  INFO 17328 --- [Thread-87] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:29:13.582  INFO 17328 --- [Thread-87] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Shutdown initiated...
+2021-03-12 17:29:13.588  INFO 17328 --- [Thread-87] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Shutdown completed.
+2021-03-12 17:29:13.722  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Starting OnlineAdmissionSystem1Application using Java 15.0.1 on LAPTOP-TUNMEVMJ with PID 17328 (C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1\bin\main started by sjsha in C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1)
+2021-03-12 17:29:13.723  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : No active profile set, falling back to default profiles: default
+2021-03-12 17:29:14.212  INFO 17328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-12 17:29:14.214  INFO 17328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2021-03-12 17:29:14.369  INFO 17328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2021-03-12 17:29:14.371  INFO 17328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-12 17:29:14.372  INFO 17328 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-12 17:29:14.432  INFO 17328 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-12 17:29:14.432  INFO 17328 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 705 ms
+2021-03-12 17:29:14.690  INFO 17328 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-12 17:29:14.782  INFO 17328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Starting...
+2021-03-12 17:29:14.952  INFO 17328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Start completed.
+2021-03-12 17:29:14.953  INFO 17328 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 17:29:16.279  INFO 17328 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 17:29:16.280  INFO 17328 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:29:16.299  INFO 17328 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-12 17:29:16.609  WARN 17328 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-12 17:29:16.797  INFO 17328 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-12 17:29:16.919  INFO 17328 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:29:17.155  INFO 17328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2021-03-12 17:29:17.157  INFO 17328 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-12 17:29:17.157  INFO 17328 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-03-12 17:29:17.172  INFO 17328 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-12 17:29:17.354  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Started OnlineAdmissionSystem1Application in 3.673 seconds (JVM running for 228.584)
+2021-03-12 17:29:17.359  INFO 17328 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-03-12 17:29:18.666  INFO 17328 --- [Thread-93] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:29:18.667  INFO 17328 --- [Thread-93] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:29:18.669  INFO 17328 --- [Thread-93] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Shutdown initiated...
+2021-03-12 17:29:18.675  INFO 17328 --- [Thread-93] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Shutdown completed.
+2021-03-12 17:29:18.794  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Starting OnlineAdmissionSystem1Application using Java 15.0.1 on LAPTOP-TUNMEVMJ with PID 17328 (C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1\bin\main started by sjsha in C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1)
+2021-03-12 17:29:18.795  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : No active profile set, falling back to default profiles: default
+2021-03-12 17:29:19.435  INFO 17328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-12 17:29:19.439  INFO 17328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2021-03-12 17:29:19.666  INFO 17328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2021-03-12 17:29:19.667  INFO 17328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-12 17:29:19.667  INFO 17328 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-12 17:29:19.710  INFO 17328 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-12 17:29:19.710  INFO 17328 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 904 ms
+2021-03-12 17:29:19.755  INFO 17328 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-12 17:29:19.767  INFO 17328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Starting...
+2021-03-12 17:29:20.023  INFO 17328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Start completed.
+2021-03-12 17:29:20.024  INFO 17328 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 17:29:21.753  INFO 17328 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 17:29:21.754  INFO 17328 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:29:21.767  INFO 17328 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-12 17:29:21.981  WARN 17328 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-12 17:29:22.310  INFO 17328 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-12 17:29:22.393  INFO 17328 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:29:22.541  INFO 17328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2021-03-12 17:29:22.544  INFO 17328 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-12 17:29:22.545  INFO 17328 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-03-12 17:29:22.551  INFO 17328 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-12 17:29:22.599  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Started OnlineAdmissionSystem1Application in 3.837 seconds (JVM running for 233.829)
+2021-03-12 17:29:22.601  INFO 17328 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-03-12 17:29:24.632  INFO 17328 --- [Thread-99] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:29:24.633  INFO 17328 --- [Thread-99] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:29:24.634  INFO 17328 --- [Thread-99] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Shutdown initiated...
+2021-03-12 17:29:24.644  INFO 17328 --- [Thread-99] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Shutdown completed.
+2021-03-12 17:29:24.919  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Starting OnlineAdmissionSystem1Application using Java 15.0.1 on LAPTOP-TUNMEVMJ with PID 17328 (C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1\bin\main started by sjsha in C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1)
+2021-03-12 17:29:24.920  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : No active profile set, falling back to default profiles: default
+2021-03-12 17:29:26.054  INFO 17328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-12 17:29:26.058  INFO 17328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2021-03-12 17:29:26.266  INFO 17328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2021-03-12 17:29:26.267  INFO 17328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-12 17:29:26.267  INFO 17328 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-12 17:29:26.323  INFO 17328 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-12 17:29:26.324  INFO 17328 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1394 ms
+2021-03-12 17:29:26.412  INFO 17328 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-12 17:29:26.431  INFO 17328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Starting...
+2021-03-12 17:29:26.581  INFO 17328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Start completed.
+2021-03-12 17:29:26.581  INFO 17328 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 17:29:27.537  INFO 17328 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 17:29:27.538  INFO 17328 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:29:27.555  INFO 17328 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-12 17:29:27.698  WARN 17328 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-12 17:29:27.929  INFO 17328 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-12 17:29:28.028  INFO 17328 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:29:28.181  INFO 17328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2021-03-12 17:29:28.183  INFO 17328 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-12 17:29:28.209  INFO 17328 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-03-12 17:29:28.229  INFO 17328 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-12 17:29:28.322  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Started OnlineAdmissionSystem1Application in 3.474 seconds (JVM running for 239.552)
+2021-03-12 17:29:28.329  INFO 17328 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-03-12 17:29:32.868  INFO 17328 --- [Thread-105] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:29:32.868  INFO 17328 --- [Thread-105] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:29:32.869  INFO 17328 --- [Thread-105] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Shutdown initiated...
+2021-03-12 17:29:32.874  INFO 17328 --- [Thread-105] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Shutdown completed.
+2021-03-12 17:29:32.987  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Starting OnlineAdmissionSystem1Application using Java 15.0.1 on LAPTOP-TUNMEVMJ with PID 17328 (C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1\bin\main started by sjsha in C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1)
+2021-03-12 17:29:32.988  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : No active profile set, falling back to default profiles: default
+2021-03-12 17:29:33.769  INFO 17328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-12 17:29:33.772  INFO 17328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2021-03-12 17:29:33.998  INFO 17328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2021-03-12 17:29:34.000  INFO 17328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-12 17:29:34.000  INFO 17328 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-12 17:29:34.094  INFO 17328 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-12 17:29:34.095  INFO 17328 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1104 ms
+2021-03-12 17:29:34.235  INFO 17328 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-12 17:29:34.252  INFO 17328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Starting...
+2021-03-12 17:29:34.424  INFO 17328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Start completed.
+2021-03-12 17:29:34.425  INFO 17328 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 17:29:35.360  INFO 17328 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 17:29:35.360  INFO 17328 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:29:35.370  INFO 17328 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-12 17:29:35.478  WARN 17328 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-12 17:29:35.552  INFO 17328 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-12 17:29:35.666  INFO 17328 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:29:35.837  INFO 17328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2021-03-12 17:29:35.838  INFO 17328 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-12 17:29:35.840  INFO 17328 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-03-12 17:29:35.870  INFO 17328 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-12 17:29:36.117  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Started OnlineAdmissionSystem1Application in 3.162 seconds (JVM running for 247.347)
+2021-03-12 17:29:36.124  INFO 17328 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-03-12 17:29:37.533  INFO 17328 --- [Thread-111] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:29:37.538  INFO 17328 --- [Thread-111] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:29:37.545  INFO 17328 --- [Thread-111] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Shutdown initiated...
+2021-03-12 17:29:37.555  INFO 17328 --- [Thread-111] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Shutdown completed.
+2021-03-12 17:29:37.784  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Starting OnlineAdmissionSystem1Application using Java 15.0.1 on LAPTOP-TUNMEVMJ with PID 17328 (C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1\bin\main started by sjsha in C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1)
+2021-03-12 17:29:37.785  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : No active profile set, falling back to default profiles: default
+2021-03-12 17:29:38.444  INFO 17328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-12 17:29:38.448  INFO 17328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2021-03-12 17:29:38.589  INFO 17328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2021-03-12 17:29:38.590  INFO 17328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-12 17:29:38.590  INFO 17328 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-12 17:29:38.629  INFO 17328 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-12 17:29:38.630  INFO 17328 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 842 ms
+2021-03-12 17:29:38.669  INFO 17328 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-12 17:29:38.677  INFO 17328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Starting...
+2021-03-12 17:29:38.839  INFO 17328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Start completed.
+2021-03-12 17:29:38.840  INFO 17328 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 17:29:39.829  INFO 17328 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 17:29:39.829  INFO 17328 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:29:39.839  INFO 17328 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-12 17:29:39.960  WARN 17328 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-12 17:29:40.022  INFO 17328 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-12 17:29:40.126  INFO 17328 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:29:40.254  INFO 17328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2021-03-12 17:29:40.255  INFO 17328 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-12 17:29:40.257  INFO 17328 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-03-12 17:29:40.267  INFO 17328 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-12 17:29:40.366  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Started OnlineAdmissionSystem1Application in 2.648 seconds (JVM running for 251.596)
+2021-03-12 17:29:40.374  INFO 17328 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-03-12 17:29:44.835  INFO 17328 --- [Thread-117] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:29:44.836  INFO 17328 --- [Thread-117] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:29:44.837  INFO 17328 --- [Thread-117] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Shutdown initiated...
+2021-03-12 17:29:44.846  INFO 17328 --- [Thread-117] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Shutdown completed.
+2021-03-12 17:29:45.006  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Starting OnlineAdmissionSystem1Application using Java 15.0.1 on LAPTOP-TUNMEVMJ with PID 17328 (C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1\bin\main started by sjsha in C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1)
+2021-03-12 17:29:45.007  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : No active profile set, falling back to default profiles: default
+2021-03-12 17:29:45.532  INFO 17328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-12 17:29:45.534  INFO 17328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2021-03-12 17:29:45.654  INFO 17328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2021-03-12 17:29:45.655  INFO 17328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-12 17:29:45.655  INFO 17328 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-12 17:29:45.691  INFO 17328 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-12 17:29:45.691  INFO 17328 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 680 ms
+2021-03-12 17:29:45.730  INFO 17328 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-12 17:29:45.736  INFO 17328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Starting...
+2021-03-12 17:29:45.843  INFO 17328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Start completed.
+2021-03-12 17:29:45.843  INFO 17328 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 17:29:46.712  INFO 17328 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 17:29:46.712  INFO 17328 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:29:46.725  INFO 17328 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-12 17:29:46.814  WARN 17328 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-12 17:29:46.880  INFO 17328 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-12 17:29:46.967  INFO 17328 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:29:47.132  INFO 17328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2021-03-12 17:29:47.134  INFO 17328 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-12 17:29:47.135  INFO 17328 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-03-12 17:29:47.161  INFO 17328 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-12 17:29:47.196  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Started OnlineAdmissionSystem1Application in 2.251 seconds (JVM running for 258.426)
+2021-03-12 17:29:47.198  INFO 17328 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-03-12 17:29:58.041  INFO 17328 --- [http-nio-8070-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-12 17:29:58.042  INFO 17328 --- [http-nio-8070-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-12 17:29:58.042  INFO 17328 --- [http-nio-8070-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-03-12 17:30:17.496  INFO 17328 --- [Thread-123] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:30:17.498  INFO 17328 --- [Thread-123] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:30:17.499  INFO 17328 --- [Thread-123] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Shutdown initiated...
+2021-03-12 17:30:17.507  INFO 17328 --- [Thread-123] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Shutdown completed.
+2021-03-12 17:30:17.834  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Starting OnlineAdmissionSystem1Application using Java 15.0.1 on LAPTOP-TUNMEVMJ with PID 17328 (C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1\bin\main started by sjsha in C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1)
+2021-03-12 17:30:17.834  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : No active profile set, falling back to default profiles: default
+2021-03-12 17:30:18.871  INFO 17328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-12 17:30:18.880  INFO 17328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2021-03-12 17:30:19.155  INFO 17328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2021-03-12 17:30:19.159  INFO 17328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-12 17:30:19.160  INFO 17328 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-12 17:30:19.286  INFO 17328 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-12 17:30:19.288  INFO 17328 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1448 ms
+2021-03-12 17:30:19.387  INFO 17328 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-12 17:30:19.402  INFO 17328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-22 - Starting...
+2021-03-12 17:30:19.645  INFO 17328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-22 - Start completed.
+2021-03-12 17:30:19.646  INFO 17328 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 17:30:20.771  INFO 17328 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 17:30:20.772  INFO 17328 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:30:20.782  INFO 17328 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-12 17:30:20.940  WARN 17328 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-12 17:30:21.046  INFO 17328 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-12 17:30:21.135  INFO 17328 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:30:21.287  INFO 17328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2021-03-12 17:30:21.309  INFO 17328 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-12 17:30:21.310  INFO 17328 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-03-12 17:30:21.318  INFO 17328 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-12 17:30:21.375  INFO 17328 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Started OnlineAdmissionSystem1Application in 3.648 seconds (JVM running for 292.605)
+2021-03-12 17:30:21.377  INFO 17328 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-03-12 17:30:21.955  INFO 7692 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Starting OnlineAdmissionSystem1Application using Java 15.0.1 on LAPTOP-TUNMEVMJ with PID 7692 (C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1\bin\main started by sjsha in C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1)
+2021-03-12 17:30:21.971  INFO 7692 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : No active profile set, falling back to default profiles: default
+2021-03-12 17:30:22.261  INFO 7692 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-12 17:30:22.263  INFO 7692 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-12 17:30:25.545  INFO 7692 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-12 17:30:25.599  INFO 7692 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 0 JPA repository interfaces.
+2021-03-12 17:30:28.205  INFO 7692 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2021-03-12 17:30:28.237  INFO 7692 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-12 17:30:28.238  INFO 7692 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-12 17:30:28.581  INFO 7692 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-12 17:30:28.584  INFO 7692 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6319 ms
+2021-03-12 17:30:29.173  INFO 7692 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-12 17:30:29.331  INFO 7692 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-12 17:30:29.731  INFO 7692 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-12 17:30:29.986  INFO 7692 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-12 17:30:30.567  INFO 7692 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-12 17:30:30.613  INFO 7692 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 17:30:32.239  INFO 7692 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 17:30:32.261  INFO 7692 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:30:32.333  WARN 7692 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-03-12 17:30:33.487  WARN 7692 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-12 17:30:34.012  INFO 7692 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-12 17:30:34.342  INFO 7692 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:30:34.901  WARN 7692 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8070 is already in use
+2021-03-12 17:30:34.907  INFO 7692 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:30:34.914  INFO 7692 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:30:34.923  INFO 7692 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-03-12 17:30:34.940  INFO 7692 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-03-12 17:30:34.966  INFO 7692 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-03-12 17:30:35.012  INFO 7692 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-03-12 17:30:35.125 ERROR 7692 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8070 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8070 or configure this application to listen on another port.
+
+2021-03-12 17:31:00.369  INFO 14284 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Starting OnlineAdmissionSystem1Application using Java 15.0.1 on LAPTOP-TUNMEVMJ with PID 14284 (C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1\bin\main started by sjsha in C:\Users\sjsha\Desktop\Sprint1\OnlineAdmissionSystem1)
+2021-03-12 17:31:00.374  INFO 14284 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : No active profile set, falling back to default profiles: default
+2021-03-12 17:31:00.555  INFO 14284 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-12 17:31:00.557  INFO 14284 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-12 17:31:03.348  INFO 14284 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-12 17:31:03.382  INFO 14284 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+2021-03-12 17:31:05.201  INFO 14284 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2021-03-12 17:31:05.238  INFO 14284 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-12 17:31:05.239  INFO 14284 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-12 17:31:05.512  INFO 14284 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-12 17:31:05.513  INFO 14284 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4952 ms
+2021-03-12 17:31:05.903  INFO 14284 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-12 17:31:06.039  INFO 14284 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-12 17:31:06.414  INFO 14284 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-12 17:31:06.704  INFO 14284 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-12 17:31:07.219  INFO 14284 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-12 17:31:07.252  INFO 14284 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 17:31:08.802  INFO 14284 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 17:31:08.827  INFO 14284 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 17:31:08.939  INFO 14284 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-12 17:31:09.979  WARN 14284 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-12 17:31:10.580  INFO 14284 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-12 17:31:10.995  INFO 14284 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-12 17:31:11.697  INFO 14284 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2021-03-12 17:31:11.700  INFO 14284 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-12 17:31:11.759  INFO 14284 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-03-12 17:31:11.839  INFO 14284 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-12 17:31:12.237  INFO 14284 --- [restartedMain] .O.O.a.OnlineAdmissionSystem1Application : Started OnlineAdmissionSystem1Application in 12.813 seconds (JVM running for 14.638)
+2021-03-12 17:31:27.356  INFO 14284 --- [http-nio-8070-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-12 17:31:27.357  INFO 14284 --- [http-nio-8070-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-12 17:31:27.359  INFO 14284 --- [http-nio-8070-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms

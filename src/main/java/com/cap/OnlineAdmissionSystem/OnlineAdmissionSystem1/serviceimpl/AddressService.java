@@ -16,6 +16,8 @@ import com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.services.IAddressSer
 
 @Service
 public class AddressService implements IAddressService{
+//	static final Logger log = 
+//	        LoggerFactory.getLogger(AddressService.class);
 	
 	@Autowired
 	IAddressRepository addrepo;

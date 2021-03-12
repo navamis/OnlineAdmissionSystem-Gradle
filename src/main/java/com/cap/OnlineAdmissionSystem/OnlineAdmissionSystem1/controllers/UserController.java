@@ -18,7 +18,8 @@ import com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.services.IUserServic
 
 @RestController
 public class UserController {
-	
+//	static final Logger log = 
+//	        LoggerFactory.getLogger(UserController.class);
 	@Autowired
 	IUserService userService;
 	

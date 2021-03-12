@@ -22,6 +22,8 @@ import com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.services.ICollegeSer
 
 @Service
 public class CollegeService implements ICollegeService {
+//	static final Logger log = 
+//	        LoggerFactory.getLogger(CollegeService.class);
 
 	@Autowired
 	ICollegeRepository collrepo;

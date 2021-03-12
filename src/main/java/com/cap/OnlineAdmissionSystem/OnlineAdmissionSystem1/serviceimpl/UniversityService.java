@@ -14,6 +14,8 @@ import com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.services.IUniversity
 
 @Service
 public class UniversityService implements IUniversityServices {
+//	static final Logger log = 
+//	        LoggerFactory.getLogger(UniversityService.class);
 	
 	@Autowired
 	IUniversityRepository unirepo;

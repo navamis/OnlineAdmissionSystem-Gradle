@@ -16,6 +16,8 @@ import com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.services.IProgramSch
 
 @Service
 public class ProgramScheduledServiceImplementation implements IProgramScheduleService {
+//	static final Logger log = 
+//	        LoggerFactory.getLogger(ProgramScheduledServiceImplementation.class);
 	
 	@Autowired
 	IProgramScheduleRepository programScheduleRepository;

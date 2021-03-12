@@ -14,7 +14,8 @@ import com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.services.IProgramSer
 
 @Service
 public class ProgramServiceImplementation implements IProgramService{
-	
+//	static final Logger log = 
+//	        LoggerFactory.getLogger(ProgramServiceImplementation.class);
 	@Autowired
 	IProgramRepository programRepository;
 

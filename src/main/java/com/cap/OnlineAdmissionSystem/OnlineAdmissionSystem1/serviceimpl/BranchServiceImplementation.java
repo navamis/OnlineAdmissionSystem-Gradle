@@ -17,6 +17,8 @@ import com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.services.IBranchServ
 
 @Service
 public class BranchServiceImplementation implements IBranchService {
+//	static final Logger log = 
+//	        LoggerFactory.getLogger(BranchServiceImplementation.class);
 	
 	@Autowired
 	IBranchRepository branchRepository;

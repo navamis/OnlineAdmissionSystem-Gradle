@@ -1,4 +1,4 @@
-package com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1;
+package com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.applications;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

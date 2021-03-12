@@ -24,6 +24,8 @@ import com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.serviceimpl.BranchSe
 @RestController
 @RequestMapping(path = "/api/v1")
 public class BranchController {
+//	static final Logger log = 
+//	        LoggerFactory.getLogger(BranchController.class);
 	
 	@Autowired
 	BranchServiceImplementation branchServiceImplementation;

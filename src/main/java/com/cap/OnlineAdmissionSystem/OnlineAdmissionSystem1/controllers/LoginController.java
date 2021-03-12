@@ -16,7 +16,6 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.entities.Login;
-import com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.entities.User;
 import com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.services.IUserService;
 
 import io.swagger.annotations.ApiOperation;
@@ -24,6 +23,8 @@ import io.swagger.annotations.ApiParam;
 
 @RestController
 public class LoginController {
+//	static final Logger log = 
+//	        LoggerFactory.getLogger(LoginController.class);
 	
 	@Autowired
 	IUserService  loginService;

@@ -44,7 +44,7 @@ import org.junit.jupiter.api.Test;
 			System.out.println("eholl");
 		}
 		
-		//@Test
+		@Test
 		public void testaddUserDetails() {		
 			User user = new User(111, "Ria", "Ann", "Charles", "ria@gmail.com", "9999999999", "1234 5678 9876");
 			User u = userService.addUserDetails(user);
@@ -108,7 +108,7 @@ import org.junit.jupiter.api.Test;
 		}
 		
 		
-		@Test
+		//@Test
 		public void testresetPassword() {
 			userService.resetPassword(login);
 		}

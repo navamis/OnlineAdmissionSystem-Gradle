@@ -30,6 +30,8 @@ import io.swagger.annotations.ApiParam;
 @RestController
 @RequestMapping(path = "/api/v1")
 public class ProgramScheduleController {
+//	static final Logger log = 
+//	        LoggerFactory.getLogger(ProgramScheduleController.class);
 
 	/*
 	 * add @return values and @param if needed

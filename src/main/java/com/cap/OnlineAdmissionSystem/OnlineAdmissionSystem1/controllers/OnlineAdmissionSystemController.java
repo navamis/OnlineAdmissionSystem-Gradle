@@ -11,12 +11,12 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.entities.Payment;
 import com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.exceptions.DeletionException;
+import com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.exceptions.NotFoundException;
 import com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.exceptions.PaymentAddException;
 import com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.services.IPaymentServices;
 
@@ -27,6 +27,8 @@ import io.swagger.annotations.ApiParam;
 @RestController
 @Api(value = "Payment", tags = {"PaymentAPI"})
 public class OnlineAdmissionSystemController {
+//	static final Logger log = 
+//	        LoggerFactory.getLogger(OnlineAdmissionSystemController.class);
 
 	
 	@Autowired

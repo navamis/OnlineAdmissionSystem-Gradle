@@ -6,7 +6,6 @@ import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
 import com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.entities.Login;
 import com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.entities.User;
@@ -17,6 +16,8 @@ import com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.services.IUserServic
 
 @Service
 public class UserService implements IUserService {
+//	static final Logger log = 
+//	        LoggerFactory.getLogger(UserService.class);
 	
 	@Autowired
 	IUserRepository userRepository;

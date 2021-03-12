@@ -15,6 +15,8 @@ import com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.services.Application
 
 @Service
 public class ApplicationServiceImplementation implements ApplicationService {
+//	static final Logger log = 
+//	        LoggerFactory.getLogger(ApplicationServiceImplementation.class);
 @Autowired
 ApplicationRepository applicationRepository;
 

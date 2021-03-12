@@ -9,7 +9,6 @@ import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-
 import com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.entities.Payment;
 import com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.exceptions.DeletionException;
 import com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.exceptions.NotFoundException;
@@ -21,6 +20,8 @@ import com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.services.IPaymentSer
 
 @Service
 public class IPaymentServicesImpl implements IPaymentServices{
+//	static final Logger log = 
+//	        LoggerFactory.getLogger(IPaymentServicesImpl.class);
 	
 	@Autowired
 	IPaymentRepository paymentRepository;

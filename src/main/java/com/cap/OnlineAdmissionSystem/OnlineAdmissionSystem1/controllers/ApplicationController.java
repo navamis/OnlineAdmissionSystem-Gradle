@@ -15,6 +15,8 @@ import com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.serviceimpl.Applicat
 
 @RestController
 public class ApplicationController {
+//	static final Logger log = 
+//	        LoggerFactory.getLogger(ApplicationController.class);
 	
 	@Autowired
 	ApplicationServiceImplementation applicationServiceImplementation;

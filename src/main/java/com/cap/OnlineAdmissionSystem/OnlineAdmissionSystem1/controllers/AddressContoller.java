@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
+//import com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.applications.LoggerApplication;
 import com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.entities.Address;
 import com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.serviceimpl.AddressService;
 
@@ -22,6 +23,8 @@ import com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.serviceimpl.AddressS
 @RestController
 @RequestMapping(path = "/api/v1")
 public class AddressContoller {
+//	static final Logger log = 
+//	        LoggerFactory.getLogger(AddressContoller.class);
 	
 	@Autowired
 	AddressService addressservice;

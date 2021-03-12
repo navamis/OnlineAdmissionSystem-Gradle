@@ -26,7 +26,9 @@ import com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.serviceimpl.CourseSe
 @RestController
 @RequestMapping(path = "/api/v1")
 public class CourseController {
-	
+//	static final Logger log = 
+//	        LoggerFactory.getLogger(CourseController.class);
+//	
 	@Autowired
 	CourseServiceImplementation courseServiceImplementation;
 	

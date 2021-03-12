@@ -17,7 +17,6 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.entities.College;
-import com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.entities.Login;
 import com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.repo.ICollegeRepository;
 import com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.serviceimpl.CollegeService;
 
@@ -27,7 +26,8 @@ import io.swagger.annotations.ApiParam;
 @RestController
 @RequestMapping(path = "/api/v1")
 public class CollegeController {
-	
+//	static final Logger log = 
+//	        LoggerFactory.getLogger(CollegeController.class);
 	
 	/*
 	 * add @return values and @param if needed

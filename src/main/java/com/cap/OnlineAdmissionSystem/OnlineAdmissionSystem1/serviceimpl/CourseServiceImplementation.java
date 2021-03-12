@@ -18,6 +18,8 @@ import com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.services.ICourseServ
 
 @Service
 public class CourseServiceImplementation implements ICourseService{
+//	static final Logger log = 
+//	        LoggerFactory.getLogger(CourseServiceImplementation.class);
 	
 	@Autowired
 	ICourseRepository courseRepository;

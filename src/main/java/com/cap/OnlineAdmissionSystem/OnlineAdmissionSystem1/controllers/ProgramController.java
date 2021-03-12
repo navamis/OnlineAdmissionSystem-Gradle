@@ -26,6 +26,8 @@ import com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.serviceimpl.ProgramS
 @RequestMapping(path = "/api/v1")
 public class ProgramController {
 
+//	static final Logger log = 
+//	        LoggerFactory.getLogger(ProgramController.class);
 	@Autowired
 	ProgramServiceImplementation programServiceImplementation;
 	
