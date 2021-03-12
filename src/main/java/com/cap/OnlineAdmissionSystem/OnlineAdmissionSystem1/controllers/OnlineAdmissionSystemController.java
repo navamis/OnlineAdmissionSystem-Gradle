@@ -25,7 +25,6 @@ import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 
 @RestController
-@RequestMapping(path = "/Api")
 @Api(value = "Payment", tags = {"PaymentAPI"})
 public class OnlineAdmissionSystemController {
 

@@ -26,7 +26,7 @@ class testUniversity {
 
 	//University university1=new University("Presii",address,null);
 	
-	@Test
+	//@Test
 	void testaddUniversity() {
 		Branch b1= new Branch("mech", "Computer Science Engineering");
 		Branch b2= new Branch("civil","Electronics communication engineering");
@@ -57,7 +57,7 @@ class testUniversity {
 		//universityService.addUniversity(university2);
 	}
 	
-//	@Test
+	//@Test
 	void testviewAllUniversityDetails()
 	{
 		
