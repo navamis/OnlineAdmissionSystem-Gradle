@@ -138,7 +138,7 @@ public class ProgramScheduleController {
 	 * this method gets programSchedule details By scheduleId
 	 * @returns programSchedule
 	 */
-	@GetMapping("/programScheduledByDate/{scheduleId}")
+	@GetMapping("/programScheduledById/{scheduleId}")
 	@ApiOperation(value = "get ProgramScheduled details by scheduleId",response= ProgramScheduled.class)
 	@ResponseStatus(code = HttpStatus.OK)
 	public ResponseEntity<ProgramScheduled> getProgramScheduleByDate(@PathVariable("scheduleId") int scheduleId){

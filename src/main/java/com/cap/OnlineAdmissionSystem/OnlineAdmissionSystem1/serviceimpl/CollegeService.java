@@ -132,6 +132,7 @@ public class CollegeService implements ICollegeService {
 	        {
 	            college1 = collpres.get();
 	            college1.setCollegeName(college.getCollegeName());
+	            collrepo.save(college1);
 	        }    
 	           return college1;
 	       

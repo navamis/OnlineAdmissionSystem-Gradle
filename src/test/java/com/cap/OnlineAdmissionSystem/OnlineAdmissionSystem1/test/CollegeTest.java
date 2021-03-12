@@ -37,7 +37,7 @@ public class CollegeTest {
        
       
 
-		@Test
+	//	@Test
 		public void Testaddcollege()
 		{
 			Branch b1= new Branch("mech", "Computer Science Engineering");
@@ -82,16 +82,16 @@ public class CollegeTest {
 		
 		
 		
-//		@Test
+		//@Test
 		public void TestdeleteCollegeById() {
-			collservice.deleteCollegeById(6);
+			collservice.deleteCollegeById(31);
 		}
 		
 		
 		
 		//@Test
 		public void TestdeleteCollegeByName() {
-			collservice.deleteCollegeByName("Presi");
+			collservice.deleteCollegeByName("BMSIT");
 		}
 		
 		
@@ -99,10 +99,28 @@ public class CollegeTest {
 		//@Test
 		public void TestupdateCollegeDetails()
 		{
+
+			Branch b1= new Branch("mech", "Computer Science Engineering");
+			Branch b2= new Branch("civil","Electronics communication engineering");
+			ArrayList<Branch> branches= new ArrayList<Branch>();
+			  branches.add(b1);
+			  branches.add(b2);
+			  
+		   Program p1=new Program("M.tech", "70% abv", "4 years", "Graduation");
+			    ArrayList<Program> programs= new ArrayList<Program>();
+			    programs.add(p1);
+			    
+		   Address address= new Address("abc","defg","vvv","hij",890,"klmnop");
+			  
+		    Course c1=new Course("C++", "7 cgpa",branches);
+		    ArrayList<Course> courses= new ArrayList<Course>();
+		    courses.add(c1);
+		    
+            
+		    
+		    college= new College("Presidency",address ,programs,courses,branches);
 			
-		College col=collservice.getCollegeDetailsByCollegeRegId(1);
-		col.setCollegeName("Presidency");
-		collservice.updateCollegeDetails(col);
+		collservice.updateCollegeDetails(college);
 			
 		}
 		
