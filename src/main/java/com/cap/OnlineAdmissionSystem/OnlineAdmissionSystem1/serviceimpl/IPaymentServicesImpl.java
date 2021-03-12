@@ -9,11 +9,12 @@ import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.OnlineAdmissionSystemDemo.App.Repo.IApplicationRepository;
+
 import com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.entities.Payment;
 import com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.exceptions.DeletionException;
 import com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.exceptions.NotFoundException;
 import com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.exceptions.PaymentAddException;
+import com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.repo.ApplicationRepository;
 import com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.repo.IPaymentRepository;
 import com.cap.OnlineAdmissionSystem.OnlineAdmissionSystem1.services.IPaymentServices;
 
@@ -25,7 +26,7 @@ public class IPaymentServicesImpl implements IPaymentServices{
 	IPaymentRepository paymentRepository;
 	
 	@Autowired
-	IApplicationRepository applicationRepo;
+	ApplicationRepository applicationRepo;
 	
 	@Transactional
 	@Override
